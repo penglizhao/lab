@@ -1,0 +1,36 @@
+!function(D,W,L){
+function on(x,n,f){
+  x.addEventListener?x.addEventListener(n,f,!1):x.attachEvent("on"+n,f);
+}
+function off(x,n,f){
+  x.removeEventListener?x.removeEventListener(n,f,!1):x.detachEvent("on"+n,f);
+}
+function l(){
+  on(D,"DOMContentLoaded",h);
+  on(W,"load",h);
+}
+function h(){
+  off(D,"DOMContentLoaded",h);
+  off(W,"load",h);
+  w();
+}
+function w(){
+  var a=D.getElementsByTagName("a"),i=a.length,x,t,
+      Q="hl=en",q="hl="+v,
+      U="/intl/en/",u="/intl/"+v+"/",
+      W="//www.google.com/",w="//www.google."+d+"/";
+  while(i--){
+    t=(x=a[i]).href;
+    t=t.replace(Q,q);
+    t=t.replace(U,u);
+    t=t.replace(W,w);
+    x.href=t;
+  }
+}
+var s=D.readyState,
+    d=L.host.match(/^scholar[.]google[.]([a-z.]+)$/),
+    v=L.href.match(/\/intl\/([a-zA-Z_-]+)\//);
+d=(d&&d[1])||"com";
+v=(v&&v[1])||"en";
+(d!="com"||v!="en")&&(s=="interactive"||s=="complete"?w():l());
+}(document,window,location);
