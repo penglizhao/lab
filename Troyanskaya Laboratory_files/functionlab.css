@@ -27,7 +27,7 @@ button, object, embed {
 .orange a:link,
 .orange a:visited,
 .orange a:active {
-  color: #e7711d;
+  color: #0018a8;
   text-decoration: none;
 }
 
@@ -45,7 +45,7 @@ button, object, embed {
 }
 
 .orange-inv a:hover {
-  color: #e7711d;
+  color: #0018a8;
   text-decoration: none;
 }
 
@@ -193,7 +193,7 @@ inspired from http://codepen.io/Rowno/pen/Afykb
 }
 
 .collab-name a:hover {
-  color: #e7711d;
+  color: #0018a8;
   text-decoration: none;
 }
 
@@ -205,7 +205,7 @@ inspired from http://codepen.io/Rowno/pen/Afykb
 
 .people .people-list-container .person {
   width: 210px;
-  /*border-bottom: 4px solid #e7711d;*/
+  /*border-bottom: 4px solid #0018a8;*/
   display: block;
   padding-bottom: 10px;
   text-decoration: none;
@@ -217,7 +217,7 @@ inspired from http://codepen.io/Rowno/pen/Afykb
 
 .people .people-list-container .alumni {
   width: 172px;
-  /*border-bottom: 4px solid #e7711d;*/
+  /*border-bottom: 4px solid #0018a8;*/
   display: block;
   padding-bottom: 8px;
   text-decoration: none;
@@ -228,11 +228,11 @@ inspired from http://codepen.io/Rowno/pen/Afykb
 }
 
 .people .people-list-container .person:hover {
-  border-color: #e7711d;
+  border-color: #0018a8;
 }
 
 .people .people-list-container a .alumni:hover {
-  border-color: #e7711d;
+  border-color: #0018a8;
 }
 
 .people .people-list-container .person img {
@@ -266,11 +266,11 @@ inspired from http://codepen.io/Rowno/pen/Afykb
 }
 
 .people .people-list-container .person:hover .person-name {
-  color: #e7711d;
+  color: #0018a8;
 }
 
 .people .people-list-container a .alumni:hover .person-name {
-  color: #e7711d;
+  color: #0018a8;
 }
 
 .people .people-list-container .person .person-info {
@@ -347,7 +347,7 @@ inspired from http://codepen.io/Rowno/pen/Afykb
 
 #sitemodal a, #cvmodal a {
   font-size:12px;
-  color: #e7711d;
+  color: #0018a8;
   text-decoration: none;
 }
 
@@ -396,11 +396,11 @@ inspired from http://codepen.io/Rowno/pen/Afykb
 }
 
 .pubtitle:hover {
-  color:#e7711d;
+  color:#0018a8;
 }
 
 .publink, .publink:active, .publink:visited, .publink:focus {
-  color:#e7711d;
+  color:#0018a8;
 }
 
 .publink:hover {
@@ -568,7 +568,7 @@ inspired from http://codepen.io/Rowno/pen/Afykb
 }
 
 .software-contain a:hover h3 {
-  color:#e7711d !important;
+  color:#0018a8 !important;
 }
 
 .old-software {
@@ -585,7 +585,7 @@ inspired from http://codepen.io/Rowno/pen/Afykb
 }
 
 .collapse-head a:hover {
-  color:#e7711d;
+  color:#0018a8;
 }
 
 /* JOIN PAGE */
@@ -612,7 +612,7 @@ inspired from http://codepen.io/Rowno/pen/Afykb
 }
 
 .address-title {
-  color: #e7711d;
+  color: #0018a8;
 } 
 
 .address-name {
@@ -722,7 +722,7 @@ inspired from http://codepen.io/Rowno/pen/Afykb
 
 /*.navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus {
-  color: #e7711d;
+  color: #0018a8;
 }*/
 
 .navbar-custom .navbar-brand img {
@@ -788,7 +788,7 @@ inspired from http://codepen.io/Rowno/pen/Afykb
 
 .navbar-custom .navbar-nav > li > a:hover,
 .navbar-custom .navbar-nav > li > a:focus {
-  color: #e7711d;
+  color: #0018a8;
   /*font-weight: 600;*/
   background-color: #ffffff;
 }
@@ -797,7 +797,7 @@ inspired from http://codepen.io/Rowno/pen/Afykb
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
   /*font-weight: 600;*/
-  color: #e7711d;
+  color: #0018a8;
   background-color: #ffffff;
 }
 
@@ -805,7 +805,7 @@ inspired from http://codepen.io/Rowno/pen/Afykb
 .navbar-custom .navbar-nav > .open > a:hover,
 .navbar-custom .navbar-nav > .open > a:focus {
   /*font-weight: 600;*/
-  color: #e7711d;
+  color: #0018a8;
   background-color: #ffffff;
 }
 
@@ -834,7 +834,7 @@ inspired from http://codepen.io/Rowno/pen/Afykb
 }
 
 .navbar-custom .navbar-link:hover {
-  color: #e7711d;
+  color: #0018a8;
 }
 
 #bs-navbar-collapse-1 {
